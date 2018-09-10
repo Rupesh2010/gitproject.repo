@@ -17,7 +17,7 @@ chmod 400 rupesh1.pem
 Connect to your instance using its Public DNS:
 ec2-34-207-232-123.compute-1.amazonaws.com
 Example:
-ssh -i "rupesh1.pem" ec2-user@ec2-34-207-232-123.compute-1.amazonaws.com
+ssh -i "*.pem" ec2-user@ec2-34-207-232-123.compute-1.amazonaws.com
 Please note that in most cases the username above will be correct, however please ensure that you read your AMI usage instructions to ensure that the AMI owner has not changed the default AMI username.
 
 P.S: don't use root login; always copy the key in notepad or textedit. Copying the key in wordpad or ms word will leave spaces which will result in the connection failure.
